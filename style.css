@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,body{
+	height: 100%;
+	font-family: 'Poiret One', cursive;
+}
+#navigate{
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+#background{
+	background:url(imgs/royal.jpg) no-repeat fixed center;
+	height: 100%;
+	background-size: cover;
+}
+#sesion{
+	background:url(imgs/socio.jpg) no-repeat center;
+	height: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+#contact{
+	background:url(imgs/contacto.jpg) no-repeat center;
+	height: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.cursor{
+	cursor: pointer;
+}
+
+.not-move{
+ 	overflow: hidden;
+ }
+.serif-font{
+	font-family: 'Bree Serif', serif;
+}
+.playball-font{
+	font-family: 'Playball', cursive;
+}
+.be-big{
+	font-size: 6em;
+}
+.be-medium-big{
+	font-size: 4em;
+}
+}
+.be-medium{
+	font-size: 3.5em;
+}
+.black-text{
+	font-weight:bold; 
+}
+.golden-font{
+	color:rgb(165,135,45);
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.font-medium-size{
+	font-size: 20px;
+}
+.font-medium-big-size{
+	font-size: 30px;
+}
+.inline-block{
+	display: inline-block;
+	margin-right: -4px;
+}
+.block{
+	display: block;
+}
+.little-padding{
+	padding: 20px;
+}
+.big-top-space{
+	padding-top: 150px;
+}
+.medium-top-space{
+	padding-top: 30px;
+}
+.little-top-space{
+	padding-top:50px;
+}
+.big-bottom-space{
+	margin-bottom: 200px;
+}
+.right-spaces{
+	margin-right: 30px;
+}
+.user-space{
+	margin-right: 160px;
+}
+.big-left-space{
+	margin-left: 600px;
+}
+.left-space{
+	margin-left: 60px;
+}
+.left-space2{
+	margin-left:250px;
+}
+.decoration-font{
+	text-decoration: none;
+}
+.notfound-background{
+	background-color: black;
+	 margin-bottom: 0px;
+}
+nav ul li:hover {
+  background: rgba(59,86,163,0.6);
+}
